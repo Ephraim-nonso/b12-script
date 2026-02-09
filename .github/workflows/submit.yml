@@ -3,7 +3,7 @@ name: Submit to B12
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   submit:
