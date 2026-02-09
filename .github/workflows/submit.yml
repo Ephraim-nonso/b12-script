@@ -31,7 +31,7 @@ jobs:
           B12_RESUME_LINK: ${{ secrets.B12_RESUME_LINK }}
           B12_REPOSITORY_LINK: ${{ secrets.B12_REPOSITORY_LINK }}
         run: |
-          python submit.py
+          python scripts/submit.py
 
 
           
